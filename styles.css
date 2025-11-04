@@ -134,7 +134,14 @@ p{ margin:0 0 1rem 0; }
   .icon-toggle{ top:12px; right:12px; width:40px; height:40px; font-size:16px; }
 }
 
-.hero-buttons{ display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; }
+/* Make CTA buttons stack vertically */
+.hero-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  align-items:center;
+  margin-top:6px;
+}
 .btn{
   display:inline-block;
   padding:10px 14px;
